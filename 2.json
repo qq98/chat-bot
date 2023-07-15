@@ -1,0 +1,102 @@
+{
+    "arguments": [
+        {
+            "source": "cib",
+            "optionsSets": [
+                "nlu_direct_response_filter",
+                "deepleo",
+                "disable_emoji_spoken_text",
+                "responsible_ai_policy_235",
+                "enablemm",
+                "h3imaginative",
+                "clgalileo",
+                "gencontentv3",
+                "bofbugfix",
+                "rai268",
+                "dsblhlthcrd",
+                "enrecansgim",
+                "rweasgv2",
+                "oscfingv2",
+                "dv3sugg",
+                "autosave"
+            ],
+            "allowedMessageTypes": [
+                "ActionRequest",
+                "Chat",
+                "Context",
+                "InternalSearchQuery",
+                "InternalSearchResult",
+                "Disengaged",
+                "InternalLoaderMessage",
+                "Progress",
+                "RenderCardRequest",
+                "AdsQuery",
+                "SemanticSerp",
+                "GenerateContentQuery",
+                "SearchQuery"
+            ],
+            "sliceIds": [
+                "winmuid1tf",
+                "ccadesk",
+                "contansperf",
+                "anssuplogprops",
+                "tempcacheread",
+                "temptacache",
+                "winstmsg2tf",
+                "sydconfigoptc",
+                "nodupevents",
+                "convcssclick",
+                "adssqovroff",
+                "530psthos0",
+                "531rai268",
+                "418dhlth",
+                "517recansvg",
+                "529rwea",
+                "515oscfingv2"
+            ],
+            "verbosity": "verbose",
+            "traceId": "647ec002c3c047f4adaf16ad2046310b",
+            "isStartOfSession": true,
+            "message": {
+                "locale": "zh-CN",
+                "market": "zh-CN",
+                "region": "US",
+                "location": "lat:47.639557;long:-122.128159;re=1000m;",
+                "locationHints": [
+                    {
+                        "country": "United States",
+                        "state": "Washington",
+                        "city": "Medina",
+                        "zipcode": "98039",
+                        "timezoneoffset": -8,
+                        "dma": 819,
+                        "countryConfidence": 8,
+                        "cityConfidence": 5,
+                        "Center": {
+                            "Latitude": 47.6211,
+                            "Longitude": -122.2364
+                        },
+                        "RegionType": 2,
+                        "SourceType": 1
+                    }
+                ],
+                "timestamp": "2023-06-06T13:11:36+08:00",
+                "author": "user",
+                "inputMethod": "Keyboard",
+                "text": "生成一张可爱的猫咪图片",
+                "messageType": "Chat",
+                "requestId": "56940aab-edeb-1536-31de-86ed6f6ad93b",
+                "messageId": "56940aab-edeb-1536-31de-86ed6f6ad93b"
+            },
+            "tone": "Creative",
+            "requestId": "56940aab-edeb-1536-31de-86ed6f6ad93b",
+            "conversationSignature": "VrNQWJ0CkDOpKD1uMPUc/JX3qEx75SH9C6m5B8iYjqI=",
+            "participant": { "id": "1055522168641171" },
+            "spokenTextMode": "None",
+            "conversationId": "51D|BingProd|02F4D6A686FC030A9FEE12442BB6F44D63595B4CB02925DDD275E3C6614FACB3"
+        }
+    ],
+    "invocationId": "1",
+    "target": "chat",
+    "type": 4
+}

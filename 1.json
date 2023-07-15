@@ -1,0 +1,165 @@
+{
+    "type": 2,
+    "invocationId": "2",
+    "item": {
+        "messages": [
+            {
+                "text": "生成一张狗子喝水的照片",
+                "author": "user",
+                "from": { "id": "1055522168641171", "name": null },
+                "createdAt": "2023-06-06T05:26:56.3587865+00:00",
+                "timestamp": "2023-06-06T13:25:07+08:00",
+                "locale": "zh-CN",
+                "market": "zh-US",
+                "region": "US",
+                "location": "lat:47.639557;long:-122.128159;re=1000m;",
+                "locationHints": [
+                    {
+                        "country": "United States",
+                        "countryConfidence": 8,
+                        "state": "Washington",
+                        "city": "Medina",
+                        "cityConfidence": 5,
+                        "zipCode": "98039",
+                        "timeZoneOffset": -8,
+                        "dma": 819,
+                        "sourceType": 1,
+                        "center": {
+                            "latitude": 47.6211,
+                            "longitude": -122.2364,
+                            "height": null
+                        },
+                        "regionType": 2
+                    }
+                ],
+                "messageId": "e7d502f2-8606-7c2c-f7ce-dc4ceaf19c07",
+                "requestId": "e7d502f2-8606-7c2c-f7ce-dc4ceaf19c07",
+                "nlu": {
+                    "scoredClassification": {
+                        "classification": "CHAT_GPT",
+                        "score": null
+                    },
+                    "classificationRanking": [
+                        { "classification": "CHAT_GPT", "score": null }
+                    ],
+                    "qualifyingClassifications": null,
+                    "ood": null,
+                    "metaData": null,
+                    "entities": null
+                },
+                "offense": "None",
+                "feedback": { "tag": null, "updatedOn": null, "type": "None" },
+                "contentOrigin": "cib",
+                "privacy": null,
+                "inputMethod": "Keyboard"
+            },
+            {
+                "text": "我会尝试生成一张狗子喝水的照片。",
+                "author": "bot",
+                "createdAt": "2023-06-06T05:27:00.3617252+00:00",
+                "timestamp": "2023-06-06T05:27:00.3617252+00:00",
+                "messageId": "fc77376d-a6b4-443a-8fc0-92c90428b639",
+                "requestId": "e7d502f2-8606-7c2c-f7ce-dc4ceaf19c07",
+                "offense": "None",
+                "adaptiveCards": [
+                    {
+                        "type": "AdaptiveCard",
+                        "version": "1.0",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": "我会尝试生成一张狗子喝水的照片。\n",
+                                "wrap": true
+                            }
+                        ]
+                    }
+                ],
+                "sourceAttributions": [],
+                "feedback": { "tag": null, "updatedOn": null, "type": "None" },
+                "contentOrigin": "DeepLeo",
+                "privacy": null,
+                "suggestedResponses": [
+                    {
+                        "text": "我想看其他动物的图片。",
+                        "author": "user",
+                        "createdAt": "2023-06-06T05:27:02.8004369+00:00",
+                        "timestamp": "2023-06-06T05:27:02.8004369+00:00",
+                        "messageId": "2848c508-488a-476d-9c8a-03024a690ad1",
+                        "messageType": "Suggestion",
+                        "offense": "Unknown",
+                        "feedback": {
+                            "tag": null,
+                            "updatedOn": null,
+                            "type": "None"
+                        },
+                        "contentOrigin": "DeepLeo",
+                        "privacy": null
+                    },
+                    {
+                        "text": "你能给我讲一个笑话吗？",
+                        "author": "user",
+                        "createdAt": "2023-06-06T05:27:02.8004376+00:00",
+                        "timestamp": "2023-06-06T05:27:02.8004376+00:00",
+                        "messageId": "b118ddcf-54ac-4a1c-88ce-7e8b62979485",
+                        "messageType": "Suggestion",
+                        "offense": "Unknown",
+                        "feedback": {
+                            "tag": null,
+                            "updatedOn": null,
+                            "type": "None"
+                        },
+                        "contentOrigin": "DeepLeo",
+                        "privacy": null
+                    },
+                    {
+                        "text": "你知道什么是狗子吗？",
+                        "author": "user",
+                        "createdAt": "2023-06-06T05:27:02.8004394+00:00",
+                        "timestamp": "2023-06-06T05:27:02.8004394+00:00",
+                        "messageId": "9c6f81a5-d406-456f-8a76-aff4da980857",
+                        "messageType": "Suggestion",
+                        "offense": "Unknown",
+                        "feedback": {
+                            "tag": null,
+                            "updatedOn": null,
+                            "type": "None"
+                        },
+                        "contentOrigin": "DeepLeo",
+                        "privacy": null
+                    }
+                ]
+            },
+            {
+                "contentType": "IMAGE",
+                "text": "a dog drinking water",
+                "hiddenText": "[assistant](#generative_image)\n{\"query\": \"a dog drinking water\", \"type\":\"IMAGE\", \"actionTag\":\"generative_image\"}\n",
+                "author": "bot",
+                "createdAt": "2023-06-06T05:27:01.2797172+00:00",
+                "timestamp": "2023-06-06T05:27:01.2797172+00:00",
+                "messageId": "6f79ae52-e154-4de5-91ba-ae1d2df1d07c",
+                "requestId": "e7d502f2-8606-7c2c-f7ce-dc4ceaf19c07",
+                "messageType": "GenerateContentQuery",
+                "offense": "None",
+                "feedback": { "tag": null, "updatedOn": null, "type": "None" },
+                "contentOrigin": "DeepLeo",
+                "privacy": null
+            }
+        ],
+        "firstNewMessageIndex": 1,
+        "defaultChatName": null,
+        "conversationId": "51D|BingProd|87E65499BAF20CF1C8EC8A95BDA8F2A381064044A0F1B1619EF9276DD4FB64A8",
+        "requestId": "e7d502f2-8606-7c2c-f7ce-dc4ceaf19c07",
+        "conversationExpiryTime": "2023-09-04T05:27:03.3488952Z",
+        "telemetry": {
+            "metrics": null,
+            "startTime": "2023-06-06T05:26:56.3549575Z"
+        },
+        "throttling": {
+            "maxNumUserMessagesInConversation": 30,
+            "numUserMessagesInConversation": 2
+        },
+        "result": { "value": "Success", "serviceVersion": "20230605.70" }
+    }
+}
+
+// https://www.bing.com/images/create?partner=sydney&re=1&showselective=1&sude=1&kseed=7500&SFX=2&q=a+dog+drinking+water&iframeid=6f79ae52-e154-4de5-91ba-ae1d2df1d07c
