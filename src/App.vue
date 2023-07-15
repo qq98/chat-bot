@@ -155,7 +155,7 @@
                 <div id="stretch" v-if="!exportLoading"></div>
             </div>
             <div v-else id="home">
-                <div>
+                <!-- <div>
                     <p>🤪 N0tsChat | 集成 ChatGPT 与 NewBing</p>
                     <div class="content">
                         <p>
@@ -176,7 +176,7 @@
                             >
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div id="input" v-if="!exportLoading">
                 <div
